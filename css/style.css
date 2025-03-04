@@ -159,6 +159,10 @@ body{
     cursor: pointer;
 }
 
+.numeros:focus:not(.numeros--active) {
+    background-color: white;
+}
+
 .tarjeta2--active{
     scale: 1;
 }
