@@ -27,7 +27,6 @@ contenedorNumeros.addEventListener("click", function(e){
 
    if(numeros.classList.contains("numeros")){
         numeros.classList.add("numeros--active");
-        numeros.blur();
         numeroSeleccionado = e.target.textContent;
         parrafoTexto.textContent = `You selectedout ${e.target.textContent} of 5`
     }
