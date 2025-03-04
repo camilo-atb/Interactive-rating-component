@@ -159,10 +159,6 @@ body{
     cursor: pointer;
 }
 
-.numeros:focus:not(.numeros--active) {
-    background-color: white;
-}
-
 .tarjeta2--active{
     scale: 1;
 }
@@ -177,4 +173,10 @@ body{
 
 .attribution a {
     color: rgb(130, 182, 228);
+}
+
+@media (hover: none) {
+    .numeros:hover {
+        background-color: inherit;
+    }
 }
