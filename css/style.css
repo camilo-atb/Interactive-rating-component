@@ -86,10 +86,10 @@ body{
     cursor: pointer;
 }
 
-.numeros:hover{
+/*.numeros:hover{
     color: black;
     background-color: white;
-}
+}*/
 
 .tarjeta__submit{
     text-transform: uppercase;
@@ -175,11 +175,9 @@ body{
     color: rgb(130, 182, 228);
 }
 
-@media (hover: none) {
-    .numeros:hover {
-        background-color: var(--orange);
-    }
-    .numeros:active {
+@media (hover: hover) {
+    .numeros:hover{
+        color: black;
         background-color: white;
     }
 }
