@@ -176,10 +176,7 @@ body{
 }
 
 @media (hover: none) {
-    .numeros:focus {
-        background-color: var(--orange);
-    }
     .numeros:hover {
-        background-color: white;
+        background-color: inherit;
     }
 }
