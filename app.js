@@ -40,7 +40,7 @@ contenedorNumeros.addEventListener("click", function(e){
 // SEGUNDA TARJETA:
 
 botonSubmit.addEventListener("click", function(){
-    if(numeroSeleccionado < 6){
+    if(numeroSeleccionado !== null && numeroSeleccionado < 6){
         tarjeta2.classList.add("tarjeta2--active");
     }else{
         return
