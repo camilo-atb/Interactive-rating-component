@@ -31,7 +31,7 @@ Así se ve el componente en un dispositivo movil:
 
 ### 🔗 Enlace al proyecto
 
-- [Ver el sitio en línea](https://your-live-site-url.com)  
+- [Ver el sitio en línea](https://camilo-atb.github.io/Interactive-rating-component/)  
 
 ## 🚀 Mi proceso
 
