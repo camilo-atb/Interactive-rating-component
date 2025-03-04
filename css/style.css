@@ -30,7 +30,7 @@ body{
     --very-dark-blue: hsl(216, 52%, 14%); /* 216, 12%, 8% */
     width: 90%;
     max-width: 340px;
-    height: 400px;
+    height: 430px;
     margin: 0 auto;
     padding: 30px;
     background-image: linear-gradient(var(--dark-blue) 0%, var(--dark-blue) 60%, var(--very-dark-blue) 100%);
@@ -120,7 +120,7 @@ body{
     width: 90%;
     max-width: 340px;
 
-    height: 400px;
+    height: 430px;
 
     margin: 0 auto;
     padding: 30px;
