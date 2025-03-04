@@ -181,3 +181,10 @@ body{
         background-color: white;
     }
 }
+
+@media (hover: none) {
+    .numeros:hover{
+        color: white;
+        background-color: transparent;
+    }
+}
