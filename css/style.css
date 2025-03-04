@@ -177,6 +177,9 @@ body{
 
 @media (hover: none) {
     .numeros:hover {
-        background-color: inherit;
+        background-color: var(--orange);
+    }
+    .numeros:active {
+        background-color: white;
     }
 }
