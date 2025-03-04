@@ -176,7 +176,10 @@ body{
 }
 
 @media (hover: none) {
-    .numeros:hover {
+    .numeros:focus {
         background-color: var(--orange);
+    }
+    .numeros:hover {
+        background-color: white;
     }
 }
