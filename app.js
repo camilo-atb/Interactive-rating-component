@@ -4,7 +4,7 @@ const botonSubmit = document.querySelector(".tarjeta__submit");
 const tarjeta2 =document.querySelector(".tarjeta2");
 const parrafoTarjeta2 = document.querySelector(".tarjeta2__parrafo1");
 
-let numeroSeleccionado = null;
+let numeroSeleccionado = 100;
 
 // PRIMERA TARJETA
 contenedorNumeros.addEventListener("click", function(e){
@@ -40,7 +40,7 @@ contenedorNumeros.addEventListener("click", function(e){
 // SEGUNDA TARJETA:
 
 botonSubmit.addEventListener("click", function(){
-    if(numeroSeleccionado !== null && numeroSeleccionado < 6){
+    if(numeroSeleccionado < 6){
         tarjeta2.classList.add("tarjeta2--active");
     }else{
         return
